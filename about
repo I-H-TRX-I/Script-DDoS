@@ -1,0 +1,47 @@
+#!/bin/bash
+BLACK='\e[0;30m'
+BLUE='\e[0;34m'
+GREEN='\e[0;32m'
+CYAN='\e[0;36m'
+RED='\e[0;31m'
+PURPLE='\e[0;35m'
+BROWN='\e[0;33m'
+LIGHTGRAY='\e[0;37m'
+DARKGRAY='\e[1;30m'
+LIGHTBLUE='\e[1;34m'
+LIGHTGREEN='\e[1;32m'
+LIGHTCYAN='\e[1;36m'
+LIGHTRED='\e[1;31m'
+LIGHTPURPLE='\e[1;35m'
+YELLOW='\e[1;33m'
+WHITE='\e[1;37m'
+NC='\e[0m'              # No Color
+clear
+echo -e "${GREEN}"
+echo "+===============================+"
+echo "+-------------------------------+"
+echo "+                               +"  
+echo "+      HTRX & TOL12             +" 
+echo "+                               +"  
+echo "+                               +"
+echo "+-------------------------------+"
+echo "+===============================+"
+echo -e "${LIGHTBLUE}[Nombre proyecto] ${BLUE}HTRX     "
+echo -e "${LIGHTBLUE}[Version] ${GREEN}    HTRX Version 1.0     "
+echo -e "${LIGHTBLUE}[Fecha de lanzamiento] ${RED} 21-4-19     "
+echo -e "${LIGHTBLUE}[tamaño] ${RED}         ~201KB    "
+echo -e " "
+echo -e "${LIGHTBLUE}[Desarrollado por] ${RED} HTRX    "
+echo -e "${LIGHTBLUE}[Descifrador] ${RED}        HTRX   "
+echo -e "${LIGHTBLUE}[Probador beta] ${RED}  HTRX   "
+echo -e ""
+echo -e "${LIGHTBLUE}[Renuncia] "
+echo -e "${RED}"
+echo -e "No nos hacemos responsables de lo que utiliza esta herramienta para lograr."
+echo -e "Esta herramienta está diseñada para uso privado / personal para realizar pruebas de estrés en " 
+echo -e "Equipo de red. Puede ser ilegal usar este software para otros fines"
+echo -e "que su uso previsto"
+echo -e ""
+echo -e "NO REDISTRUZCA NI ALTERE HTRX!"
+read
+

